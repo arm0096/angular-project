@@ -1,0 +1,202 @@
+{
+  "chooseUsers": [
+    {
+      "id": 1,
+      "img": "assets/img/Icon1.png",
+      "title": "Business",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 2,
+      "img": "assets/img/Icon2.png",
+      "title": "Startup",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 3,
+      "img": "assets/img/Icon3.png",
+      "title": "Economy",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 4,
+      "img": "assets/img/Icon4.png",
+      "title": "Technology",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    }
+  ],
+  "listUsers": [
+    {
+      "id": 1,
+      "img": "assets/img/image4.png",
+      "title": "Floyd Miles",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/image5.png",
+      "title": "Dianne Russell",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/image6.png",
+      "title": "Jenny Wilson",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/image7.png",
+      "title": "Leslie Alexander",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/image18.png",
+      "title": "Floyd Miles",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/image19.png",
+      "title": "Dianne Russell",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/image20.png",
+      "title": "Jenny Wilson",
+      "text": "Content Writer @Company"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/image21.png",
+      "title": "Leslie Alexander",
+      "text": "Content Writer @Company"
+    }
+  ],
+  "allUsers": [
+    {
+      "id": 1,
+      "img": "assets/img/image10.png",
+      "title": "Startup",
+      "text": "Design tips for designers that cover everything you need",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 2,
+      "img": "assets/img/image11.png",
+      "title": "BUSINES",
+      "text": "Design tips for designers that cover everything you need",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 3,
+      "img": "assets/img/image12.png",
+      "title": "Startup",
+      "text": "Design tips for designers that cover everything you need",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 4,
+      "img": "assets/img/image13.png",
+      "title": "TECHNOLOGY",
+      "text": "Design tips for designers that cover everything you need",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 5,
+      "img": "assets/img/image10.png",
+      "title": "ECONOMY",
+      "text": "Design tips for designers that cover everything you need",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 6,
+      "img": "assets/img/image10.png",
+      "title": "Startup",
+      "text": "Design tips for designers that cover everything you need",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 7,
+      "img": "assets/img/image22.png",
+      "title": "Business",
+      "text": "Top 6 free website mockup tools 2022",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    },
+    {
+      "id": 8,
+      "img": "assets/img/image22.png",
+      "title": "Busines",
+      "text": "Step-by-step guide to choosing great font pairs",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    },
+    {
+      "id": 9,
+      "img": "assets/img/image22.png",
+      "title": "Busines",
+      "text": "Ten free foogle fonts that you should use",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    },
+    {
+      "id": 10,
+      "img": "assets/img/image22.png",
+      "title": "Busines",
+      "text": "What did I learn from doing 50+ design sprints?",
+      "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+    }
+  ],
+  "postsUsers": [
+    {
+      "id": 1,
+      "title": "John Deo",
+      "data": "By   l   Aug 23, 2021",
+      "text": "8 Figma design systems that you can download for free today."
+    },
+    {
+      "id": 2,
+      "title": "John Deo",
+      "data": "By   l   Aug 23, 2021",
+      "text": "8 Figma design systems that you can download for free today."
+    },
+    {
+      "id": 3,
+      "title": "John Deo",
+      "data": "By   l   Aug 23, 2021",
+      "text": "8 Figma design systems that you can download for free today."
+    },
+    {
+      "id": 4,
+      "title": "John Deo",
+      "data": "By   l   Aug 23, 2021",
+      "text": "8 Figma design systems that you can download for free today."
+    }
+  ],
+  "nextUsers": [
+    {
+      "id": 1,
+      "img": "assets/img/image10.png",
+      "text": "A UX Case Study Creating a Studious Environment for Students: ",
+      "title": "John Doe",
+      "data": " By  |  Aug 23, 2021 ",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 2,
+      "img": "assets/img/image11.png",
+      "text": "A UX Case Study Creating a Studious Environment for Students:",
+      "title": "John Doe",
+      "data": " By  |  Aug 23, 2021 ",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    },
+    {
+      "id": 3,
+      "img": "assets/img/image12.png",
+      "text": "A UX Case Study Creating a Studious Environment for Students:",
+      "title": "John Doe",
+      "data": " By  |  Aug 23, 2021 ",
+      "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    }
+  ]
+}

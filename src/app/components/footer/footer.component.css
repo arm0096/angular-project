@@ -1,0 +1,219 @@
+/* FOOTER CSS START*/
+footer {
+  background: #232536;
+}
+.footer-nav__block {
+  width: 100%;
+  padding: 61px 0 54px;
+  align-items: center;
+}
+.footer-nav__logo {
+  width: 40%;
+}
+.footer-nav__bar {
+  width: 60%;
+  text-align: end;
+}
+.footer-nav__bar > ul > li {
+  display: inline;
+  padding: 0 12px;
+}
+.footer-nav__bar > ul > li > a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+}
+.footer-nav__bar > ul > li > a:hover {
+  color: aqua;
+}
+.fform {
+  padding: 80px 64px;
+  background: #ffffff25;
+}
+.fform__flex > p {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #FFFFFF;
+}
+.fform__flex > form {
+  width: 70%;
+}
+.fform__flex input {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  border: 1px solid #4C4C4C;
+  background: #232536;
+  padding: 13px 73px 13px 24px;
+}
+.fform__flex button {
+  padding: 16px 48px;
+  background: #FFD050;
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  border: none;
+  margin-left: 24px;
+  transition-duration: 0.5s;
+}
+.fform__flex button:hover {
+  color: blue;
+  background-color: orange;
+  cursor: pointer;
+}
+.ficons {
+  padding: 48px 0 56px;
+}
+.fi__flex {
+  align-items: center;
+  justify-content: space-between;
+}
+.fi__text {
+  width: 45%;
+}
+.fi__text > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.fi__text > a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+.fi__text > a:hover {
+  color: aqua;
+}
+.fi__icons {
+  width: 45%;
+  text-align: end;
+}
+.fi__icons > a {
+  margin: 0 13px;
+}
+/* FOOTER CSS END*/
+@media screen and (max-width: 1330px) {
+  .fform__flex button {
+    padding: 17px 20px;
+    font-size: 17px;
+    margin-left: 19px;
+  }
+  .fform__flex input {
+    padding: 13px 13px 13px 24px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .fform__flex > p {
+    font-size: 30px;
+  }
+  .fform__flex {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer-nav__bar > ul > li > a {
+    font-size: 15px;
+  }
+  .footer-nav__bar > ul > li {
+    padding: 0px 6px;
+  }
+  .fform__flex > form {
+    width: 100%;
+  }
+  .fform {
+    padding: 50px 35px;
+  }
+  .fform__flex > p {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer-nav__logo {
+    display: none;
+  }
+  .footer-nav__bar {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-nav__block {
+    padding: 30px 0 30px;
+  }
+  .footer-nav__bar > ul > li {
+    padding: 0px 10px;
+  }
+  .fform__flex > p {
+    font-size: 22px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .fform__flex input {
+    padding: 9px 11px 9px 6px;
+    font-size: 12px;
+  }
+  .fform__flex button {
+    padding: 11px 13px;
+    font-size: 12px;
+  }
+  .fi__flex {
+    flex-wrap: wrap;
+  }
+  .fi__text {
+    width: 100%;
+    text-align: center;
+  }
+  .fi__icons {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .ficons {
+    padding: 25px 0 25px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .fform__flex input {
+    padding: 5px 0px 5px 6px;
+    font-size: 9px;
+  }
+  .fform__flex button {
+    padding: 5px 11px;
+    font-size: 12px;
+    margin-left: 2px;
+  }
+  .fform__flex > p {
+    font-size: 17px;
+  }
+  .fform {
+    padding: 10px 30px;
+  }
+  .footer-nav__bar > ul > li {
+    padding: 0px 7px;
+  }
+}

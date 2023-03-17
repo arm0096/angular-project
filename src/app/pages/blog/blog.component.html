@@ -1,0 +1,170 @@
+<!--<p>blog works!</p>-->
+<app-header></app-header>
+
+<header>
+  <div class="header-block">
+    <div class="container">
+      <div class="hd__flex d-f">
+        <div class="hd__title">
+          <span>Featured Post</span>
+          <h1>Step-by-step guide to choosing great font pairs</h1>
+          <p>By <b>James West</b>  |  May 23, 2022 </p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+          <button type="button" routerLink="/blogpost" >Read More ></button>
+        </div>
+        <div class="hd__img">
+          <img src="../../../assets/img/image9.png" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<main>
+  <section class="section1">
+    <div class="container">
+      <div class="section1__title">
+        <h2>All posts</h2>
+      </div>
+      <div class="section1__posts">
+
+        <app-all [elements]="allUsers"></app-all>
+<!--        <div class="posts">-->
+<!--          <div class="post-flex d-f">-->
+<!--            <div class="post__img">-->
+<!--              <img src="../../../assets/img/image10.png" alt="image">-->
+<!--            </div>-->
+<!--            <div class="post__text">-->
+<!--              <span>Startup</span>-->
+<!--              <h3>Design tips for designers that cover everything you need</h3>-->
+<!--              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+<!--        <div class="posts">-->
+<!--          <div class="post-flex d-f">-->
+<!--            <div class="post__img">-->
+<!--              <img src="../../../assets/img/image11.png" alt="image">-->
+<!--            </div>-->
+<!--            <div class="post__text">-->
+<!--              <span>Startup</span>-->
+<!--              <h3>Design tips for designers that cover everything you need</h3>-->
+<!--              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        -->
+<!--        <div class="posts">-->
+<!--          <div class="post-flex d-f">-->
+<!--            <div class="post__img">-->
+<!--              <img src="../../../assets/img/image12.png" alt="image">-->
+<!--            </div>-->
+<!--            <div class="post__text">-->
+<!--              <span>Startup</span>-->
+<!--              <h3>Design tips for designers that cover everything you need</h3>-->
+<!--              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+<!--        <div class="posts">-->
+<!--          <div class="post-flex d-f">-->
+<!--            <div class="post__img">-->
+<!--              <img src="../../../assets/img/image13.png" alt="image">-->
+<!--            </div>-->
+<!--            <div class="post__text">-->
+<!--              <span>Startup</span>-->
+<!--              <h3>Design tips for designers that cover everything you need</h3>-->
+<!--              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+<!--        <div class="posts">-->
+<!--          <div class="post-flex d-f">-->
+<!--            <div class="post__img">-->
+<!--              <img src="../../../assets/img/image10.png" alt="image">-->
+<!--            </div>-->
+<!--            <div class="post__text">-->
+<!--              <span>Startup</span>-->
+<!--              <h3>Design tips for designers that cover everything you need</h3>-->
+<!--              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+      </div>
+      <div class="section1__btns">
+        <a routerLink="#"> < Prev</a>
+        <a routerLink="#">Next ></a>
+      </div>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="container">
+      <div class="section2__title">
+        <h3>All Categories</h3>
+      </div>
+
+      <app-choose [elements]="chooseUsers"></app-choose>
+<!--      <div class="section2__flex d-f">-->
+<!--        <div class="section2__b1">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../../assets/img/Icon1.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Business</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="section2__b2">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../../assets/img/Icon2.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Startup</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="section2__b3">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../../assets/img/Icon3.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Economy</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="section2__b4">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../../assets/img/Icon4.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Technology</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      -->
+    </div>
+  </section>
+  <section class="section3">
+    <div class="container">
+      <div class="section3__title">
+        <h4>Join our team to be a part of our story</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <a routerLink="#">Join Now</a>
+      </div>
+    </div>
+  </section>
+</main>
+</header>
+
+<app-footer></app-footer>

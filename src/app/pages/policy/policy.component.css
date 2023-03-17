@@ -1,0 +1,135 @@
+.d-f {
+  display: flex;
+}
+.t-c {
+  text-align: center;
+}
+/* HEADER CSS START*/
+.header-block {
+  background: #F4F0F8;
+  padding: 80px 0;
+}
+.header-block > h1 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.header-block > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.6;
+}
+/* HEADER CSS END*/
+/* MAIN CSS START*/
+/* SECTION CSS START*/
+.section1 {
+  padding: 128px 0 128px 0;
+}
+.section1-text {
+  padding: 0 255px;
+}
+.section1-text > h2 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+
+}
+.section1-text > h3 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+
+}
+.section1-text > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4C4C4C;
+  padding: 32px 0;
+}
+
+
+
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 1100px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 900px;
+  }
+  .section1-text {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container {
+    width: 700px;
+  }
+  .section1 {
+    padding: 50px 0 50px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+  .header-block > h1 {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 1px;
+  }
+  .section1-text {
+    padding: 0 30px;
+  }
+  .section1-text > h2 {
+    font-size: 33px;
+    line-height: 9px;
+    letter-spacing: -1px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 360px;
+  }
+  .section1-text > h2 {
+    font-size: 22px;
+    line-height: 5px;
+  }
+  .section1-text > p {
+    font-size: 15px;
+    padding: 24px 0;
+  }
+  .section1-text > h3 {
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: -2px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container {
+    width: 90%;
+  }
+  .header-block {
+    padding: 24px 0;
+  }
+}

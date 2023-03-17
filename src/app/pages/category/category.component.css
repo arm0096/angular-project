@@ -1,0 +1,251 @@
+.d-f {
+  display: flex;
+}
+.t-c {
+  text-align: center;
+}
+/* HEADER CSS START*/
+.header-block {
+  width: 100%;
+  background-color: #F4F0F8;
+  padding: 80px 0;
+}
+.header-block__title > h1 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.header-block__title > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  padding: 16px 378px 32px;
+}
+.header-block__title > b {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+/* HEADER CSS END*/
+/* MAIN CSS START */
+/* SECTION 1 CSS START */
+.section1 {
+  padding: 128px 0;
+}
+.section1-flex {
+  justify-content: space-evenly;
+}
+.s1-blocks {
+  width: 65%;
+}
+
+.s1-block__flex {
+  justify-content: space-between;
+}
+.s1-block-img {
+  width: 36%;
+}
+.s1-block-text {
+  width: 62%;
+}
+.s1-block-text > b {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592EA9;
+  padding-top: 20px;
+  display: block;
+}
+.s1-block-text > h5 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding: 20px 0 16px;
+}
+.s1-block-text > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+
+}
+.s1-blocks2 > h5 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding-bottom: 40px;
+}
+.s1-blocks2 > h4 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding-bottom: 24px;
+}
+.s1-blocks2__block:nth-of-type(1) {
+  background: #FFD050;
+  padding: 24px 113px 24px 24px;
+  margin-bottom: 24px;
+  border: none;
+}
+.s1-blocks2__block {
+  padding: 24px 113px 24px 24px;
+  margin-bottom: 24px;
+  border: 1px solid #C1C1C3;
+}
+.s1-blocks2__block > p {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  padding-left: 16px;
+}
+.block-tags1 > a {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  color: #232536;
+  text-decoration: none;
+  border: 2px solid #6D6E76;
+  border-radius: 28px;
+  padding: 8px 38px;
+  margin: 0 16px 16px 0;
+  display: inline-block;
+}
+
+
+
+
+
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 1100px;
+  }
+  .s1-block-img > img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 900px;
+  }
+  .header-block__title > p {
+    padding: 16px 90px 32px;
+  }
+  .s1-block-text > h5 {
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0px;
+
+  }
+}
+@media screen and (max-width: 950px) {
+  .container {
+    width: 700px;
+  }
+  .header-block {
+    padding: 20px 0;
+  }
+  .section1-flex {
+    flex-wrap: wrap;
+  }
+  .s1-blocks {
+    width: 100%;
+  }
+  .s1-block-img {
+    width: 50%;
+  }
+  .s1-block-text {
+    width: 40%;
+  }
+  .s1-block {
+    padding-bottom: 25px;
+  }
+  .section1 {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+  .s1-block-text > h5 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .s1-block-text > p {
+    font-size: 12px;
+    line-height: 21px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 360px;
+  }
+  .s1-block__flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .s1-block-img {
+    width: 70%;
+  }
+  .s1-block-text {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container {
+    width: 90%;
+  }
+  .header-block__title > p {
+    padding: 16px 5px 32px;
+  }
+  .s1-blocks2__block {
+    padding: 5px 97px 6px 24px;
+    margin-bottom: 14px;
+  }
+  .s1-blocks2__block:nth-of-type(1) {
+    padding: 5px 97px 6px 24px;
+    margin-bottom: 14px;
+  }
+  .block-tags {
+    text-align: center;
+  }
+  .s1-blocks2 > h4 {
+    text-align: center;
+  }
+}

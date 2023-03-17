@@ -1,0 +1,139 @@
+
+.nav {
+  width: 100%;
+  background-color: #232536;
+}
+.nav__block {
+  width: 100%;
+  padding: 23.5px 0;
+  align-items: center;
+}
+.nav__logo {
+  width: 20%;
+}
+.nav__bar {
+  width: 60%;
+  text-align: end;
+  margin-right: 32px;
+}
+.nav__bar > ul > li {
+  display: inline;
+  padding: 0 12px;
+}
+.nav__bar > ul > li > a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+}
+.nav__bar > ul > li > a:hover {
+  color: aqua;
+}
+.nav__button {
+  width: 20%;
+}
+.nav__button > button {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  padding: 16px 48px;
+  border: none;
+  transition-duration: 0.5s;
+}
+.nav__button > button:hover {
+  color: aqua;
+  background-color: #a5abe0;
+  cursor: pointer;
+}
+.nav-menu__mobile {
+  display: none;
+}
+.bg__col {
+  background-color: #232536;
+}
+.mobile-menu__block {
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #232536;
+  transition: width 0.7s;
+  overflow: hidden;
+}
+.text-right {
+  text-align: right;
+}
+.mobile-menu__block label {
+  color: white;
+  cursor: pointer;
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.mobile-menu__block-item {
+  color: white;
+  list-style: none;
+}
+.mobile-menu__block-item > a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+}
+.mobile-menu__block-item > a:hover {
+  color: aqua;
+}
+.menu-text {
+  padding: 20px;
+}
+.menu-text label{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#toggle-menu:checked + .mobile-menu__block {
+  width: 230px;
+  padding: 16px;
+  z-index: 2;
+}
+
+.container {
+  width: 1380px;
+  margin: auto;
+}
+.d-f {
+  display: flex;
+}
+.t-c {
+  text-align: center;
+}
+@media screen and (max-width: 950px) {
+  .nav__button > button {
+    font-size: 13px;
+    padding: 7px 30px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-menu__mobile {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+}
+

@@ -1,0 +1,432 @@
+.d-f {
+  display: flex;
+}
+.t-c {
+  text-align: center;
+}
+/* HEADER CSS START  */
+.header-block {
+  padding-top: 144px;
+}
+.header-flex {
+  justify-content: center;
+}
+.header__absolute {
+  position: absolute;
+}
+.header-title {
+  width: 44%;
+  padding: 0 40px 50px;
+  background-color: white;
+}
+.header-title > h6{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+
+}
+.header-title > h3{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+
+}
+.header-text {
+  width: 40%;
+  padding: 40px 16px;
+}
+.header-text > p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4C4C4C;
+}
+.header-img {
+  padding-top: 202px;
+}
+.header-img > img{
+  display: block;
+  width: 100%;
+}
+/* HEADER CSS END  */
+/* MAIN CSS START  */
+/* SECTION 1 CSS START  */
+.section1-flex {
+  background: #F4F0F8;
+  padding-top: 128px;
+  justify-content: space-evenly;
+  margin-bottom: 128px;
+}
+.section1-block {
+  width: 45%;
+}
+.section1-block > p:nth-of-type(1) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.section1-block > h5 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  padding: 24px 113px 16px 0;
+}
+.section1-block > p:nth-of-type(2) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  padding: 0 55px 64px 0;
+}
+/* SECTION 1 CSS END  */
+/* SECTION 2 CSS START  */
+.section2-flex {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section2-block__text {
+  width: 45%;
+}
+.section2-block__text > h4 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding-top: 30px;
+}
+.section2-block__text > b {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  padding: 16px 0;
+  display: block;
+}
+.section2-block__text > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  padding-right: 50px;
+}
+.section2-block__img {
+  width: 45%;
+  padding-bottom: 128px;
+}
+.section2-block__img > img {
+  width: 100%;
+  display: block;
+}
+/* SECTION 2 CSS END  */
+/* SECTION 3 CSS START  */
+.section3 {
+  padding-bottom: 128px;
+}
+.section3__title > h4 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  text-align: center;
+  padding-bottom: 48px;
+}
+/*.s3__flex {*/
+/*  justify-content: space-between;*/
+/*  flex-wrap: wrap;*/
+/*}*/
+/*.s3__block1, .s3__block2, .s3__block3, .s3__block4 {*/
+/*  width: 23%;*/
+/*  background: #F4F4F4;*/
+/*  padding: 40px 28px;*/
+/*  text-align: center;*/
+/*  margin-bottom: 32px;*/
+/*}*/
+/*.s3__block2 {*/
+/*  background: #FBF6EA;*/
+/*}*/
+/*.s3__b1-text > h5, .s3__b2-text > h5, .s3__b3-text > h5, .s3__b4-text > h5 {*/
+/*  font-family: 'Sen';*/
+/*  font-style: normal;*/
+/*  font-weight: 700;*/
+/*  font-size: 28px;*/
+/*  line-height: 40px;*/
+/*  letter-spacing: -1px;*/
+/*  color: #232536;*/
+/*  padding-top: 20px;*/
+/*}*/
+/*.s3__b1-text > p, .s3__b2-text > p, .s3__b3-text > p, .s3__b4-text > p {font-family: 'Inter';*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*  font-size: 14px;*/
+/*  line-height: 20px;*/
+/*  text-align: center;*/
+/*  color: #6D6E76;*/
+/*}*/
+/*.s3__icons > a > img {*/
+/*  margin: 20px 8px 0 8px;*/
+/*}*/
+/* SECTION 3 CSS END  */
+/* SECTION 4 CSS START  */
+.section4 {
+  text-align: center;
+  margin-bottom: 128px;
+}
+.section4__title > h4 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+  padding: 0 430px;
+}
+.section4__title > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6D6E76;
+  padding: 16px 431px 32px;
+}
+.section4__title > a {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #232536;
+  background: #FFD050;
+  text-decoration: none;
+  padding: 16px 48px;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+.section4__title > a:hover {
+  color: blue;
+  cursor: pointer;
+  background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 1100px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 900px;
+  }
+  .header-title > h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .section1-block > h5 {
+    padding: 24px 35px 16px 0;
+  }
+  .section2-block__text {
+    padding-bottom: 70px;
+  }
+  .section2-block__text > p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-right: 10px;
+  }
+  .section4__title > h4 {
+    padding: 0 280px;
+  }
+  .section4__title > p {
+    padding: 16px 230px 32px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container {
+    width: 700px;
+  }
+  .header-text > p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .header-block {
+    padding-top: 70px;
+  }
+  .section1-flex {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  .section2-block__text > h4 {
+    font-size: 30px;
+    line-height: 26px;
+    padding-top: 0px;
+  }
+  .section2-block__text > b {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 16px 0;
+  }
+  .section4__title > h4 {
+    padding: 0 80px;
+  }
+  .section4__title > p {
+    padding: 16px 30px 32px;
+  }
+  .section3 {
+    padding-bottom: 20px;
+  }
+  .section4 {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+  .header-flex {
+    flex-wrap: wrap;
+  }
+  .header-title {
+    width: 100%;
+    padding: 0 40px 20px;
+  }
+  .header-text {
+    width: 100%;
+    padding: 0px 18px;
+  }
+  .header-text > p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .section1-flex {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .section1-block {
+    width: 100%;
+    text-align: center;
+  }
+  .section1-block > h5 {
+    padding: 24px 4px 16px 4px;
+  }
+  .section1-block > p:nth-of-type(2) {
+    font-size: 15px;
+    padding: 0 5px 24px 5px;
+  }
+  .section2-block__text {
+    padding-bottom: 50px;
+  }
+  .section2-block__text {
+    width: 100%;
+  }
+  .section2-block__img {
+    padding-bottom: 40px;
+  }
+  .section3__title > h4 {
+    font-size: 26px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    padding-bottom: 48px;
+  }
+  .s3__block1, .s3__block2, .s3__block3, .s3__block4 {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 360px;
+  }
+  .header-block {
+    padding-top: 20px;
+  }
+  .header-title > h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header-title > h6 {
+    font-size: 13px;
+  }
+  .header-text > p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .section1-block > h5 {
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  .section1-block > h5 {
+    padding: 14px 4px 13px 4px;
+  }
+  .section1-block > p:nth-of-type(2) {
+    font-size: 14px;
+  }
+  .section4__title > h4 {
+    padding: 0 65px;
+  }
+  .section4__title > h4 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  .section4__title > p {
+    padding: 16px 15px 10px;
+  }
+  .section4__title > a {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 7px 19px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container {
+    width: 90%;
+  }
+  .s3__block1, .s3__block2, .s3__block3, .s3__block4 {
+    width: 100%;
+  }
+}

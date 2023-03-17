@@ -1,0 +1,239 @@
+.d-f {
+  display: flex;
+}
+.t-c {
+  text-align: center;
+}
+/* MAIN CSS START*/
+/* SECTION 1 CSS START*/
+.section1 {
+  padding-bottom: 128px;
+}
+.section1__title > b {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  padding-top: 128px;
+  display: block;
+}
+.section1__title > h1 {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding: 12px 0 24px;
+}
+.section1__title > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  padding: 0px 255px;
+  margin-bottom: 64px;
+}
+.section1-block1 {
+  background: #592EA9;
+  margin: 0 250px 32px;
+}
+.s1-b1-block {
+  padding: 48px 64px;
+}
+.s1-b1-block > p:nth-of-type(1) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 10px;
+}
+.s1-b1-block > b {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+  display: block;
+  padding-top: 16px;
+}
+.s1-b1-block > p:nth-of-type(2) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.s1-b1-block > a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.s1-form__block {
+  margin: 0 250px;
+}
+.s1-form__block input, .s1-form__block textarea{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  display: block;
+  padding: 23px 525px 21px 24px;
+  margin-bottom: 16px;
+}
+.s1-form__block textarea {
+  padding: 24px 554px 62px 24px;
+}
+.s1-form__block button {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  background: #FFD050;
+  padding: 14px 308px 14px 308px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.s1-form__block button:hover {
+  color: blue;
+  cursor: pointer;
+  background-color: orange;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 1100px;
+  }
+  .s1-form__block input {
+    padding: 23px 340px 21px 24px;
+  }
+  .s1-form__block textarea {
+    padding: 24px 405px 64px 0px;
+  }
+  .s1-form__block button {
+    padding: 14px 192px 14px 242px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 900px;
+  }
+  .section1-block1 {
+    margin: 0 70px 32px;
+  }
+  .s1-form__block {
+    margin: 0 140px;
+  }
+
+}
+@media screen and (max-width: 950px) {
+  .container {
+    width: 700px;
+  }
+  .section1-block1 {
+    margin: 0 0px 32px;
+  }
+  .s1-form__block {
+    margin: 0 50px;
+  }
+  .section1__title > p {
+    padding: 0px 70px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+  .section1-block1 {
+    flex-wrap: wrap;
+  }
+  .s1-b1-block {
+    padding: 23px 111px;
+  }
+  .s1-form__block {
+    margin: 0 5px;
+  }
+  .s1-form__block input {
+    padding: 5px 255px 21px 10px;
+  }
+  .s1-form__block textarea {
+    padding: 12px 305px 18px 0px;
+  }
+  .s1-form__block button {
+    padding: 14px 136px 14px 188px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 360px;
+  }
+  .section1__title > b {
+    padding-top: 40px;
+  }
+  .section1__title > h1 {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  .section1__title > p {
+    padding: 0px 15px;
+  }
+  .s1-b1-block {
+    padding: 23px 40px;
+  }
+  .s1-form__block input {
+    padding: 5px 116px 21px 10px;
+  }
+  .s1-form__block textarea {
+    padding: 12px 167px 18px 0px;
+  }
+  .s1-form__block button {
+    padding: 3px 87px 3px 137px;
+    font-size: 18px;
+
+  }
+}
+@media screen and (max-width: 380px) {
+  .container {
+    width: 90%;
+  }
+  .s1-form__block input {
+    padding: 5px 81px 2px 10px;
+  }
+  .s1-form__block textarea {
+    padding: 12px 128px 18px 0px;
+  }
+  .s1-form__block button {
+    padding: 3px 97px 3px 97px;
+  }
+}

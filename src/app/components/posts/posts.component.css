@@ -1,0 +1,29 @@
+.section1__block2 > h3 > a:hover {
+  color: yellow;
+}
+.block2__block1 > p:nth-child(1){
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4C4C4C;
+  padding-bottom: 8px;
+}
+.block2__block1 > p:nth-child(1)> span {
+  color: #592EA9;
+}
+.block2__block1 > p:nth-child(2){
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+}
+.block2__block1{
+  padding: 32px;
+}
+.block2__block1:hover{
+  background-color: #fff6ba;
+}

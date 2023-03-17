@@ -1,0 +1,12 @@
+<div class="posts">
+  <div *ngFor="let item of elements" class="post-flex d-f" >
+    <div class="post__img">
+      <img src="{{item?.img}}" alt="image">
+    </div>
+    <div class="post__text">
+      <span class="title">{{item?.title}}</span>
+      <h3 class="text">{{item?.text}}</h3>
+      <p class="p">{{item?.ptext}}</p>
+    </div>
+  </div>
+</div>

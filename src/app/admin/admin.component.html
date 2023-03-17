@@ -1,0 +1,42 @@
+
+
+<!--menu-->
+
+
+<div class="admin">
+
+  <div class="men">
+<div class="icon-bar">
+
+  <img src="/assets/img/Logo.png" alt=""style="height: 70px;padding-bottom: 15px;">
+
+<ul>
+  <li><a routerLinkActive="active" routerLink="/home">Home</a></li>
+
+  <li><a routerLinkActive="active"  routerLink="allpost">All Post</a></li>
+  <li> <a routerLinkActive="active" routerLink="autorslist">Autors</a></li>
+   <li> <a routerLinkActive="active" routerLink="cat">Category</a></li>
+  <li><a  (click)="logout()" style="cursor: pointer">Logout</a></li>
+
+</ul>
+
+</div>
+
+  <div class="outlet">
+    <router-outlet></router-outlet>
+  </div>
+
+
+  </div>
+
+
+  <footer>
+    <p>&copy; 2023 MyAdminPage.com</p>
+  </footer>
+</div>
+
+
+
+
+
+

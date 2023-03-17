@@ -1,0 +1,49 @@
+<!--<p>header works!</p>-->
+
+<header class="header">
+  <div class="nav">
+    <div class="container">
+      <div class="nav__block d-f">
+        <div class="nav__logo">
+          <img src="assets/img/Logo.png" alt="Logo-image">
+        </div>
+        <div class="nav__bar">
+          <ul>
+            <li><a routerLink="/home">Home</a></li>
+            <li><a routerLink="/blog">Blog</a></li>
+            <li><a routerLink="/aboutus">About Us</a></li>
+            <li><a routerLink="/contact">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="nav__button">
+          <button>Subcsribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-menu__mobile bg__col">
+    <div class="menu-text">
+      <label for="toggle-menu">Menu</label>
+    </div>
+    <input type="checkbox" hidden id="toggle-menu">
+    <div class="mobile-menu__block">
+      <div class="text-right"><label for="toggle-menu">Menu</label></div>
+      <div>
+        <ul>
+          <li class="mobile-menu__block-item">
+            <a routerLink="#">Home</a>
+          </li>
+          <li class="mobile-menu__block-item">
+            <a routerLink="./blog.html">Blog</a>
+          </li>
+          <li class="mobile-menu__block-item">
+            <a routerLink="./about.html">About Us</a>
+          </li>
+          <li class="mobile-menu__block-item">
+            <a routerLink="./contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

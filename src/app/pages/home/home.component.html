@@ -1,0 +1,312 @@
+<app-header></app-header>
+
+<header>
+  <div class="header__block">
+    <div class="header__block-color">
+      <div class="container">
+        <div class="header__title">
+          <span>Posted on startup</span>
+          <h1>Step-by-step guide to choosing great font pairs</h1>
+          <p>By <b>James West</b>  |  May 23, 2022 </p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+          <button type="button" routerLink="/category">Read More ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+<main>
+
+  <section class="section__1">
+    <div class="container">
+      <div class="section1-flex d-f">
+        <div class="section1__block1">
+          <h3>Featured Post</h3>
+
+
+          <div class="block1__image">
+            <img src="/assets/img/image2.jpg" alt="image">
+            <span>By John Doe   l   May 23, 2022</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <a routerLink='author' >Read More ></a>
+          </div>
+        </div>
+
+
+        <div class="section1__block2">
+          <h3>All Posts <a routerLink="author">View All</a></h3>
+          <div class="section1__blocks">
+
+            <app-posts [elements]="postsUsers"></app-posts>
+
+<!--            <div class="block2__block1">-->
+<!--              <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>-->
+<!--              <p>8 Figma design systems that you can download for free today.</p>-->
+<!--            </div>-->
+
+<!--            <div class="block2__block2">-->
+<!--              <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>-->
+<!--              <p>8 Figma design systems that you can download for free today.</p>-->
+<!--            </div>-->
+
+<!--            <div class="block2__block3">-->
+<!--              <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>-->
+<!--              <p>8 Figma design systems that you can download for free today.</p>-->
+<!--            </div>-->
+
+<!--            <div class="block2__block4">-->
+<!--              <p>By <span>John Deo</span>   l   Aug 23, 2021 </p>-->
+<!--              <p>8 Figma design systems that you can download for free today.</p>-->
+<!--            </div>-->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section__2">
+    <div class="container">
+      <div class="section2__block1 d-f">
+        <div class="white-block"></div>
+        <div class="yellow-block"></div>
+        <div class="blue-block"></div>
+      </div>
+      <div class="section2__block2">
+        <div class="s2__b2-flex d-f">
+          <div class="s2__b2-block1">
+            <span>ABOUT US</span>
+            <p>We are a community of content writers who share their learnings</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a routerLink="#">Read More ></a>
+          </div>
+          <div class="s2__b2-block2">
+            <span>Our mision</span>
+            <p>Creating valuable content for creatives all around the world</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section__3">
+    <div class="container">
+      <div class="section3__title">
+        <h3>Choose A Catagory</h3>
+      </div>
+
+
+      <div class="section3__flex">
+
+        <app-choose [elements]="chooseUsers"></app-choose>
+
+<!--        <div class="section3__b1">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../assets/img/Icon1.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Business</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+
+<!--        <div class="section3__b2">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../assets/img/Icon2.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Startup</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="section3__b3">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../assets/img/Icon3.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Economy</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="section3__b4">-->
+<!--          <div class="img__block">-->
+<!--            <img src="../../assets/img/Icon4.png" alt="Image-icon">-->
+<!--          </div>-->
+<!--          <div class="text-block">-->
+<!--            <h5>Technology</h5>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>-->
+<!--          </div>-->
+<!--        </div>-->
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section4">
+    <div class="container">
+      <div class="s4-bc">
+        <div class="s4-block">
+          <span>Why we started </span>
+          <h4>It started out as a simple idea and evolved into our passion</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+          <a routerLink="category">Discover our story ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section5">
+    <div class="container">
+      <div class="section5__title">
+        <h4>List of Authors</h4>
+      </div>
+<!--      <div class="s5__flex d-f">-->
+
+
+        <app-list [elements]="listUsers"></app-list>
+<!--        <div class="s5__block1">-->
+<!--          <div class="s5__b1-img">-->
+<!--            <img src="../../assets/img/image4.png" alt="image">-->
+<!--          </div>-->
+<!--          <div class="s5__b1-text">-->
+<!--            <h5>Floyd Miles</h5>-->
+<!--            <p>Content Writer @Company</p>-->
+<!--          </div>-->
+
+
+
+        </div>
+
+
+<!--        <div class="s5__block2">-->
+<!--          <div class="s5__b2-img">-->
+<!--            <img src="../../assets/img/image5.png" alt="image">-->
+<!--          </div>-->
+<!--          <div class="s5__b2-text">-->
+<!--            <h5>Dianne Russell</h5>-->
+<!--            <p>Content Writer @Company</p>-->
+<!--          </div>-->
+<!--          <div class="s5__icons">-->
+<!--            <a href="https://www.facebook.com/"><img src="../../assets/img/Icon8.png" alt="Facebook"></a>-->
+<!--            <a href="https://twitter.com/?lang=ru"><img src="../../assets/img/Icon7.png" alt="Twitter"></a>-->
+<!--            <a href="https://www.instagram.com/"><img src="../../assets/img/Icon6.png" alt="Instagram"></a>-->
+<!--            <a href="https://www.linkedin.com/"><img src="../../assets/img/Icon5.png" alt="LinkedIn"></a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="s5__block3">-->
+<!--          <div class="s5__b3-img">-->
+<!--            <img src="../../assets/img/image6.png" alt="image">-->
+<!--          </div>-->
+<!--          <div class="s5__b3-text">-->
+<!--            <h5>Jenny Wilson</h5>-->
+<!--            <p>Content Writer @Company</p>-->
+<!--          </div>-->
+<!--          <div class="s5__icons">-->
+<!--            <a href="https://www.facebook.com/"><img src="../../assets/img/Icon8.png" alt="Facebook"></a>-->
+<!--            <a href="https://twitter.com/?lang=ru"><img src="../../assets/img/Icon7.png" alt="Twitter"></a>-->
+<!--            <a href="https://www.instagram.com/"><img src="../../assets/img/Icon6.png" alt="Instagram"></a>-->
+<!--            <a href="https://www.linkedin.com/"><img src="../../assets/img/Icon5.png" alt="LinkedIn"></a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="s5__block4">-->
+<!--          <div class="s5__b4-img">-->
+<!--            <img src="../../assets/img/image7.png" alt="image">-->
+<!--          </div>-->
+<!--          <div class="s5__b4-text">-->
+<!--            <h5>Leslie Alexander</h5>-->
+<!--            <p>Content Writer @Company</p>-->
+<!--          </div>-->
+<!--          <div class="s5__icons">-->
+<!--            <a href="https://www.facebook.com/"><img src="../../assets/img/Icon8.png" alt="Facebook"></a>-->
+<!--            <a href="https://twitter.com/?lang=ru"><img src="../../assets/img/Icon7.png" alt="Twitter"></a>-->
+<!--            <a href="https://www.instagram.com/"><img src="../../assets/img/Icon6.png" alt="Instagram"></a>-->
+<!--            <a href="https://www.linkedin.com/"><img src="../../assets/img/Icon5.png" alt="LinkedIn"></a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        -->
+
+<!--      </div>-->
+<!--    </div>-->
+  </section>
+  <section class="section6">
+    <div class="container">
+      <div class="s6__flex d-f">
+        <div class="s6__b1-title">
+          <p>We are</p>
+          <h5>Featured in</h5>
+        </div>
+        <div class="s6__logo t-c">
+          <img src="../../assets/img/Logo1.png" alt="Logo-image">
+        </div>
+        <div class="s6__logo t-c">
+          <img src="../../assets/img/Logo2.png" alt="Logo-image">
+        </div>
+        <div class="s6__logo t-c">
+          <img src="../../assets/img/Logo3.png" alt="Logo-image">
+        </div>
+        <div class="s6__logo t-c">
+          <img src="../../assets/img/Logo4.png" alt="Logo-image">
+        </div>
+        <div class="s6__logo t-c">
+          <img src="../../assets/img/Logo5.png" alt="Logo-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section7">
+    <div class="container">
+      <div class="s7__flex d-f">
+        <div class="s7__b1">
+          <div class="s7__b1-title">
+            <span>TESTIMONIALs</span>
+            <h4>What people say about our blog</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div>
+        <div class="s7__b2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="s7__b2-flex d-f">
+            <div class="s7__b2-fim">
+              <img src="../../assets/img/Image8.png" alt="image">
+            </div>
+            <div class="s7__b2-ft">
+              <h6>Jonathan Vallem</h6>
+              <p>New york, USA</p>
+            </div>
+            <div class="s7__b2-btn">
+              <img src="../../assets/img/Backbutton.png" alt="Backbutton">
+              <img src="../../assets/img/NextButton.png" alt="NextButton">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section8">
+    <div class="container">
+      <div class="s8__title t-c">
+        <h4>Join our team to be a part of our story</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <button>Join Now</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<app-footer></app-footer>
+</header>

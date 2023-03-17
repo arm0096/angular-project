@@ -1,0 +1,62 @@
+
+.admin{
+  margin: 0;
+  height: 850px;
+  width: 100%;
+/*display: flex;*/
+/*  flex-direction: column;*/
+/*  flex-wrap: wrap;*/
+/*  justify-content: space-around;*/
+
+}
+.icon-bar  {
+  margin: 0;
+  padding-top: 50px;
+  width: 20%;
+  background-color: #555;
+  height: 800px;
+  text-align: center;
+
+}
+.icon-bar ul li{
+  list-style-type: none;
+}
+.icon-bar  a {
+  display: block;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+.outlet{
+  width: 75%;
+  padding-top: 80px;
+  padding-right: 30px;
+}
+
+.men{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/assets/img/1619723334_20-phonoteka_org-p-fon-dlya-prezentatsii-upravlenie-proektami-21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+
